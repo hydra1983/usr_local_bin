@@ -1,3 +1,3 @@
 @ECHO off
-SET PATH=%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;D:\usr\local\bin;
+SET PATH=%PATH%;%HOME%\AppData\Roaming\npm;
 "D:\usr\share\nodejs-0.10\npm" %*
