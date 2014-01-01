@@ -3,6 +3,8 @@
 ####################
 D:\usr\local\bin
 D:\usr\local\bin\.gow\bin
+D:\usr\local\lib\dig
+D:\usr\local\lib\7z
 
 ####################
 # Languages
@@ -48,9 +50,6 @@ D:\usr\local\lib\scala\bin
 ####################
 # Tools
 ####################
-# dig
-D:\usr\local\lib\dig
-
 # git
 D:\usr\local\lib\git-1.8.4\bin
 
