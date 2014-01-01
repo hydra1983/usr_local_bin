@@ -37,6 +37,7 @@ D:\usr\local\lib\Haskell Platform\2013.2.0.0\bin
 # lisp
 D:\usr\local\lib\clisp-2.49
 
+# R
 D:\usr\local\lib\R-3.0.0\bin
 
 # as3
@@ -48,15 +49,18 @@ D:\usr\local\lib\openjdk-1.6.0-unofficial-b29-windows-amd64-image\bin
 # scala
 D:\usr\local\lib\scala\bin
 
-# clang
-D:\usr\local\lib\clang3.3_march2013
-
-# llvm
-D:\usr\local\lib\l-lvm-3.3-tools-windows
+# clang & llvm
+D:\usr\local\lib\llvm-3.5\bin
 
 ####################
 # Tools
 ####################
+# mingw32
+D:\usr\local\lib\dev_kit\mingw\bin
+
+# cmake
+D:\usr\local\lib\cmake-2.8.12.1-win32-x86\bin
+
 # git
 D:\usr\local\lib\git-1.8.4\bin
 
