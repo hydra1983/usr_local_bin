@@ -8,7 +8,7 @@ console.log(HOME);
 var data;
 
 try{
-	data = fs.readFileSync('paths',{encoding:ENCODING});
+	data = fs.readFileSync(__dirname + '/paths',{encoding:ENCODING});
 } catch(error) {
 	throw error;
 }
