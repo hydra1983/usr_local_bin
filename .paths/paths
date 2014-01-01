@@ -49,15 +49,12 @@ D:\usr\local\lib\openjdk-1.6.0-unofficial-b29-windows-amd64-image\bin
 # scala
 D:\usr\local\lib\scala\bin
 
-# clang & llvm
-D:\usr\local\lib\llvm-3.5\bin
+# c && c++ && clang && clang ++ && llvm
+D:\usr\local\lib\mingw32-dw2\bin
 
 ####################
 # Tools
 ####################
-# mingw32
-D:\usr\local\lib\dev_kit\mingw\bin
-
 # cmake
 D:\usr\local\lib\cmake-2.8.12.1-win32-x86\bin
 
