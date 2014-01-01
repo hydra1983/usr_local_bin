@@ -48,11 +48,11 @@ D:\usr\local\lib\openjdk-1.6.0-unofficial-b29-windows-amd64-image\bin
 # scala
 D:\usr\local\lib\scala\bin
 
-# llvm
-D:\usr\local\lib\l-lvm-3.3-tools-windows
-
 # clang
 D:\usr\local\lib\clang3.3_march2013
+
+# llvm
+D:\usr\local\lib\l-lvm-3.3-tools-windows
 
 ####################
 # Tools
