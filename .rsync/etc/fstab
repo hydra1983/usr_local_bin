@@ -1,0 +1,6 @@
+# fstab file created by ICW Base installer
+#
+# see fstab.txt in the installation directory for more information
+d:/usr/share/icw / ntfs override,binary,noacl 0 0
+d:/usr/share/icw/bin /usr/bin ntfs override,binary,noacl 0 0
+d:/usr/share/icw/etc/terminfo /usr/share/terminfo ntfs override,binary,noacl 0 0

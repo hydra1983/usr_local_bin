@@ -3,8 +3,9 @@
 ####################
 D:\usr\local\bin
 D:\usr\local\bin\.gow\bin
-D:\usr\local\lib\dig
-D:\usr\local\lib\7z
+D:\usr\local\bin\.dig
+D:\usr\local\bin\.7z
+D:\usr\local\bin\.rsync\Bin
 
 ####################
 # Languages
@@ -73,9 +74,6 @@ C:\Program Files (x86)\MiKTeX 2.9\miktex\bin
 
 # pandoc
 C:\Users\Edison\AppData\Local\Pandoc
-
-# rsync
-D:\usr\local\lib\icw\Bin
 
 # sbt
 D:\usr\local\lib\sbt
