@@ -118,10 +118,12 @@ var setenv = function(name, value, isGlobal){
 	var vars = [
 		{
 			name:"TEMP",
-			value:HOME + "\\AppData\\Local\\Temp"
+			value:HOME + "\\AppData\\Local\\Temp",
+			isGlobal:false
 		}, {
 			name:"TMP",
-			value:HOME + "\\AppData\\Local\\Temp"
+			value:HOME + "\\AppData\\Local\\Temp",
+			isGlobal:false
 		}
 	];
 	for(var i = 0;i < n;i++){
@@ -130,14 +132,18 @@ var setenv = function(name, value, isGlobal){
 			var match = line.match(patt);
 			var name = trim(match[1]);
 			var value = trim(match[2]);
-			vars.push({name:name,value:value});
+			vars.push({
+				name:name,
+				value:value,
+				isGlobal:true
+			});
 		}
 	}
 
 	var n = vars.length;
 	for(var i = 0;i < n;i++){
 		var v = vars[i];
-		console.log(v.name + '=' + '"' + v.value + '"');
-		setenv(v.name,v.value);
+		console.log( (v.isGlobal ? '[Sys] ' : '[Usr] ') + v.name + '=' + '"' + v.value + '"');
+		setenv(v.name,v.value,v.isGlobal);
 	}
 })();
