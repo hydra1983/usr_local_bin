@@ -2,11 +2,11 @@
 # sys
 ####################
 D:\usr\local\bin
-D:\usr\local\bin\.gow\bin
-D:\usr\local\bin\.dig
-D:\usr\local\bin\.7z
-D:\usr\local\bin\.rsync\Bin
-D:\usr\local\bin\.nc
+D:\usr\local\bin\extra\gow\bin
+D:\usr\local\bin\extra\dig
+D:\usr\local\bin\extra\7z
+D:\usr\local\bin\extra\rsync\Bin
+D:\usr\local\bin\extra\nc
 
 ####################
 # Languages
