@@ -49,13 +49,14 @@ D:\usr\local\lib\openjdk-1.6.0-unofficial-b29-windows-amd64-image\bin
 # scala
 D:\usr\local\lib\scala\bin
 
+
+# object-c
+D:\usr\local\lib\GNUstep\GNUstep\System\Tools
+D:\usr\local\lib\GNUstep\bin
+
 # c && c++ && clang && clang ++ && llvm
 # D:\usr\local\lib\mingw32-dw2\bin
 D:\usr\local\lib\mingw64\bin
-
-# object-c
-# D:\usr\local\lib\GNUstep\GNUstep\System\Tools
-# D:\usr\local\lib\GNUstep\bin
 
 ####################
 # Tools
