@@ -11,13 +11,12 @@ D:\usr\local\bin\.nc
 ####################
 # Languages
 ####################
-
+# perl
 D:\usr\local\lib\perl-strawberry\perl\bin
 
 # python
-D:\usr\local\lib\python-2.7.3
-
-D:\usr\local\lib\python-2.7.3\Scripts
+D:\usr\local\lib\python-2.7
+D:\usr\local\lib\python-2.7\Scripts
 
 # js
 D:\usr\local\lib\nodejs-0.10
@@ -26,17 +25,17 @@ C:\Users\Edison\AppData\Roaming\npm
 # php
 D:\usr\local\lib\php-5.5.7-Win32-VC11-x64
 
+# lisp
+D:\usr\local\lib\clisp-2.49
+
 # ruby
-D:\usr\local\lib\ruby-1.9.3-p286-i386-mingw32\bin
+D:\usr\local\lib\ruby-1.9.3\bin
 
 # haxe
 D:\usr\local\lib\haxe-3.0.0-win
 
 # haskell
 D:\usr\local\lib\Haskell Platform\2013.2.0.0\bin
-
-# lisp
-D:\usr\local\lib\clisp-2.49
 
 # R
 D:\usr\local\lib\R-3.0.0\bin
@@ -45,11 +44,10 @@ D:\usr\local\lib\R-3.0.0\bin
 D:\usr\local\lib\redtamarin
 
 # java
-D:\usr\local\lib\openjdk-1.6.0-unofficial-b29-windows-amd64-image\bin
+D:\usr\local\lib\openjdk-1.6.0\bin
 
 # scala
 D:\usr\local\lib\scala\bin
-
 
 # object-c
 D:\usr\local\lib\GNUstep\GNUstep\System\Tools
@@ -66,16 +64,16 @@ D:\usr\local\lib\mingw64\bin
 D:\usr\local\lib\cmake-2.8.12.1-win32-x86\bin
 
 # git
-D:\usr\local\lib\git-1.8.4\bin
+D:\usr\local\lib\git-1.8\bin
 
 # gradle
 D:\usr\local\lib\gradle-1.8\bin
 
 # ant
-D:\usr\local\lib\apache-ant-1.8.4\bin
+D:\usr\local\lib\apache-ant-1.8\bin
 
 # maven
-D:\usr\local\lib\apache-maven-3.0.4\bin
+D:\usr\local\lib\apache-maven-3.0\bin
 
 # heroku
 D:\usr\local\lib\heroku\bin
@@ -93,4 +91,4 @@ C:\Users\Edison\AppData\Local\Pandoc
 D:\usr\local\lib\sbt
 
 # node-webkit
-D:\usr\local\lib\node-webkit-v0.8.4-win-ia32
+D:\usr\local\lib\node-webkit
