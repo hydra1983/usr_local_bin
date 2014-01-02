@@ -66,11 +66,11 @@ var setenv = function(name, value, isGlobal){
 	cmd += name + ' ';
 	cmd += '"' + value + '"';
 	var child = exec(cmd, function(error, stdout, stderr){
-		if (error !== null) {
+		if (error != null) {
 			if(!(error.toString().indexOf('The system cannot find the path specified') > -1)){
 				console.log('[ERROR]: ' + error);
 			}
-	    } else {
+	    } else if(stdout != null && trim(String(stdout)) != ""){
 	    	console.log('[EXEC]' + stdout);
 	    };
 	});
@@ -117,13 +117,13 @@ var setenv = function(name, value, isGlobal){
 	var patt = /^([^=]+)=(.*)/;
 	var vars = [
 		{
-			name:"TEMP",
-			value:HOME + "\\AppData\\Local\\Temp",
-			isGlobal:false
+			name : "TEMP",
+			value : HOME + "\\AppData\\Local\\Temp",
+			isGlobal : false
 		}, {
-			name:"TMP",
-			value:HOME + "\\AppData\\Local\\Temp",
-			isGlobal:false
+			name : "TMP",
+			value : HOME + "\\AppData\\Local\\Temp",
+			isGlobal : false
 		}
 	];
 	for(var i = 0;i < n;i++){
