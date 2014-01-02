@@ -1,0 +1,5 @@
+FLEX_HOME=D:\usr\local\lib\.sdks\flex-sdks\4.6.0.23201
+M2_HOME=D:\usr\local\lib\apache-maven-3.0
+M2_REPO=D:\.cygwin\home\edison\.m2\repository
+JAVA_HOME=D:\usr\local\lib\openjdk-1.6.0
+JAVA_HOME_32=D:\usr\local\lib\openjdk-1.6.0_32
