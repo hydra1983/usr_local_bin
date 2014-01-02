@@ -63,6 +63,9 @@ D:\usr\local\lib\mingw64\bin
 # cmake
 D:\usr\local\lib\cmake-2.8.12.1-win32-x86\bin
 
+# svn
+C:\Program Files\TortoiseSVN\bin
+
 # git
 D:\usr\local\lib\git-1.8\bin
 
@@ -92,3 +95,6 @@ D:\usr\local\lib\sbt
 
 # node-webkit
 D:\usr\local\lib\node-webkit
+
+# mysql
+D:\usr\local\lib\mysql-5.5.29-winx64\bin
