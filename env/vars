@@ -3,3 +3,4 @@ M2_HOME=D:\usr\local\lib\apache-maven-3.0
 M2_REPO=D:\.cygwin\home\edison\.m2\repository
 JAVA_HOME=D:\usr\local\lib\openjdk-1.7.0-icedtea
 JAVA_HOME_32=D:\usr\local\lib\openjdk-1.7.0-icedtea_32
+GOOG_HOME=D:\usr\local\lib\closure-library-20130212
