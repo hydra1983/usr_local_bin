@@ -1,6 +1,7 @@
-  Build archive files from executable installer of oracle jdk
+```batch
+Build archive files from executable installer of oracle jdk
 
-  Usage: jdk2z jdk_installer_path [target_archive_path]
+Usage: jdk2z jdk_installer_path [target_archive_path]
 
     Example 1:
 
@@ -23,3 +24,4 @@
         jdk2z jdk-6u45-windows-i586.exe oraclejdk-1.6.0_45-x32.7z
 
     You will find "oraclejdk-1.6.0_45-x32.7z" in current directory
+```
