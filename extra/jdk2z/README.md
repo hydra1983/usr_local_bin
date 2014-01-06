@@ -1,6 +1,6 @@
-Build archive files from executable installer of oracle jdk
+ Build archive files from executable installer of oracle jdk
 
-Usage: jdk2z jdk_installer_path [target_archive_path]
+ Usage: jdk2z jdk_installer_path [target_archive_path]
 
     Example 1:
 
