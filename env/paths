@@ -2,6 +2,7 @@
 # sys
 ####################
 D:\usr\local\bin
+D:\usr\local\bin\extra
 D:\usr\local\bin\extra\gow\bin
 D:\usr\local\bin\extra\dig
 D:\usr\local\bin\extra\7z
@@ -99,3 +100,6 @@ D:\usr\local\lib\node-webkit
 
 # mysql
 D:\usr\local\lib\mysql-5.5.29-winx64\bin
+
+# clink
+D:\usr\local\lib\clink_0.4
