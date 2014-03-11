@@ -2,7 +2,7 @@ var fs = require('fs');
 var os = require('os');
 
 const ENCODING = 'utf-8';
-const HOME = process.env['home'];
+const HOME = process.env['USERPROFILE'];
 
 var trim = function(string){
 		return string.replace(/(^\s+)|(\s+$)/g,'');
@@ -102,12 +102,12 @@ var setenv = function(name, value, isGlobal){
 	console.log();
 
 	// linux
-	linux_path = '.:/usr/local/bin:/mingw/bin:/bin:' + linux_path;
+	/*linux_path = '.:/usr/local/bin:/mingw/bin:/bin:' + linux_path;
 	console.log('########## [Set Linux Path] ##########');
 	console.log(linux_path);
 	fs.writeFileSync('.linux_path',linux_path,{encoding:ENCODING});
 	fs.writeFileSync(HOME + '/.profile','export PATH=' + linux_path,{encoding:ENCODING});
-	console.log();
+	console.log();*/
 })();
 
 (function(){
@@ -116,7 +116,7 @@ var setenv = function(name, value, isGlobal){
 	var n = lines.length;
 	var patt = /^([^=]+)=(.*)/;
 	var vars = [
-		{
+		/*{
 			name : "TEMP",
 			value : HOME + "\\AppData\\Local\\Temp",
 			isGlobal : false
@@ -124,7 +124,7 @@ var setenv = function(name, value, isGlobal){
 			name : "TMP",
 			value : HOME + "\\AppData\\Local\\Temp",
 			isGlobal : false
-		}
+		}*/
 	];
 	for(var i = 0;i < n;i++){
 		var line = trim(lines[i]);
