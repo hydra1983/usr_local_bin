@@ -70,7 +70,7 @@ REM ########################################
 
 		Set isBuilt=0
 		If Exist "%outputdir%\.rsrc" (Call :process_jdk6 & Set isBuilt=1)
-		If Exist "%outputdir%\tools" (Call :process_jdk7 & Set isBuilt=1)
+		If Exist "%outputdir%\tools.zip" (Call :process_jdk7 & Set isBuilt=1)
 		Call :cleanup
 
 		If "%isBuilt%"=="0" Goto err_unknown_jdk
