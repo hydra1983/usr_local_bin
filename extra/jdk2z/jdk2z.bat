@@ -61,16 +61,19 @@ REM ########################################
 		Echo [INFO] Target:%target_archive_full_path%
 
 		Set 7z="%~dp07z\7z.exe"
+		Echo Path !7z!
 		For /f "usebackq tokens=*" %%i In (`Cscript "%~dp0uuidgen.vbs"`) Do Set uuid=%%i
 		For /f "tokens=1* delims=;" %%i In ("%TEMP%") Do Set tmpdir=%%i
 		Set outputdir=%tmpdir%\%uuid%
 
 		Echo [INFO] Extract to "%outputdir%"
-		!7z! x -y -o"%outputdir%" "%jdk_installer_full_path%" > NUL
+		Echo !7z! x -y -o"%outputdir%" "%jdk_installer_full_path%"
+		!7z! x -y -o"%outputdir%" "%jdk_installer_full_path%"
 
 		Set isBuilt=0
-		If Exist "%outputdir%\.rsrc" (Call :process_jdk6 & Set isBuilt=1)
+		If Exist "%outputdir%\.rsrc\JAVA_CAB10" (Call :process_jdk6 & Set isBuilt=1)
 		If Exist "%outputdir%\tools.zip" (Call :process_jdk7 & Set isBuilt=1)
+		If Exist "%outputdir%\.rsrc\1033\JAVA_CAB10" (Call :process_jdk8_x64 & Set isBuilt=1)
 		Call :cleanup
 
 		If "%isBuilt%"=="0" Goto err_unknown_jdk
@@ -89,6 +92,13 @@ Goto complete
 
 :process_jdk7
 	pushd "%outputdir%"
+		Call :build_archive
+	popd
+Goto complete
+
+:process_jdk8_x64
+	pushd "%outputdir%\.rsrc\1033\JAVA_CAB10"
+		extrac32 111 > NUL
 		Call :build_archive
 	popd
 Goto complete
